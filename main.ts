@@ -1,0 +1,18 @@
+basic.showIcon(IconNames.Happy)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 150)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CCW, 150)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 50)
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 50)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
+maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 50)
+basic.pause(1000)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 50)
+basic.pause(1000)
+maqueen.motorStop(maqueen.Motors.All)
+basic.pause(1000)
+basic.forever(function on_forever() {
+    
+})
